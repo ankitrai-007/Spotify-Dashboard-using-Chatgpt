@@ -1,47 +1,36 @@
 # Spotify-Dashboard-using-Chatgpt
 I made this Spotify Dashboard using PowerBi and also use chatgpt for its all possible measures.
-🎧 Spotify Analytics Dashboard – Power BI
 
-This project is a 4-page interactive Power BI dashboard built to analyze and visualize global Spotify music data. Designed as a portfolio project, it highlights key insights about artists, songs, and listening trends using clean visuals and dynamic interactivity.
 
-📑 Dashboard Pages
-
-1️⃣ Home
-The central summary page providing an at-a-glance view of overall Spotify statistics — total songs, total artists, and top performance metrics. It introduces the dataset and guides users to deeper insights through navigation buttons.
-
-2️⃣ Artist Page
-A detailed exploration of artist performance. It displays top artists by popularity, followers, and total streams, allowing users to compare multiple artists and analyze their growth trends over time.
-
-3️⃣ Songs Page
-Focuses on individual track analytics. This page highlights top 10 songs, song duration, release year trends, and metrics like popularity and energy. Users can easily identify patterns in song characteristics and performance.
-
-4️⃣ Overview Page
-Combines insights from all other pages to present a holistic summary of the Spotify dataset. It helps users understand overall trends, from artist impact to song popularity and global streaming patterns.
-
-⚙️ Technical Details
-
-Tool Used: Power BI
-
-Data Source: Global Spotify dataset (via Kaggle / Spotify API)
-
-Created DAX Measures: Total Streams, Average Popularity, Distinct Artists/Songs, Top 10 Songs, and Growth Trends
-
-Assistance: ChatGPT was used to generate and optimize DAX measures
-
-💡 Key Highlights
-
-4-page interactive dashboard with slicers for artists, genres, and years
-
-Clean and minimal UI inspired by Spotify’s brand design
-
-Optimized data model for smooth performance and accurate analysis
-
-Built as part of a student portfolio project to showcase data visualization and analytics skills
-
-🚀 Future Improvements
-
-Add real-time Spotify API integration
-
-Include sentiment or lyric-based analysis
-
-Expand to regional music insights
+Spotify Dashboard
+________________________________________
+📌 Business Requirement
+Spotify stakeholders (music analysts, playlist managers, and marketing teams) need a consolidated dashboard to monitor song and artist performance across different dimensions.
+Based on the screens provided, the business requires:
+ 1.	Overview Page
+o	Track KPIs like Total Songs, Distinct Artists, Average Popularity, Avg Duration.
+o	Compare Explicit vs Non-Explicit Songs and see their share.
+o	Analyze Songs by Album Type (single, album, compilation).
+o	View Distinct Songs and Avg Popularity by Year.
+o	Trend analysis of Avg Popularity & Distinct Songs by Month.
+o	Highlight Top Songs & Top Artists by Popularity.
+ 2.	Artist Page
+o	Show Top Artists by Popularity.
+o	Compare Tracks per Album and Songs by Artist.
+o	Provide drill-down to artist-level data (songs, release date, avg popularity, avg position, duration).
+o	Support identifying artists with consistent hits and #1 positions.
+ 3.	Songs Page
+o	Rank Top Songs by Popularity.
+o	Show Tracks per Song (Album/Single distribution).
+o	Compare Songs by Song Count.
+o	Provide detailed table with song name, release date, distinct artists, avg popularity, position, duration per year.
+________________________________________
+📌 Problem Statement
+Currently, Spotify’s raw “Top 50” dataset is limited to lists and rankings, making it difficult for stakeholders to see patterns and take insights quickly.
+From the screens, the key problems solved are:
+•	No clear KPI monitoring → Dashboard provides quick summary of total songs, artists, popularity, duration, etc.
+•	Lack of explicit vs non-explicit analysis → Users can compare how explicit songs perform vs non-explicit.
+•	Difficulty in tracking song/album distribution → Visuals show breakdown by album type and release year.
+•	Trend visibility missing → Popularity and distinct songs trends are shown over time (monthly & yearly).
+•	Artist vs Song level insights not connected → Drill-down pages for Artists and Songs connect overview insights to detailed records.
+•	Decision-making gaps → Marketing and curation teams can now identify which artists/songs to promote, trends to follow, and which content resonates with audiences.
